@@ -21,6 +21,8 @@
     width: 547px;
 }
 
+
 .social-media{
     margin-left: 180px;
+    z-index: 2;
 }

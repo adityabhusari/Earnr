@@ -38,3 +38,10 @@
     top: 100%;
     z-index: 2;
 }
+.up-image{
+    position: absolute;
+    margin-bottom: 200px;
+    left: 360px;
+    top: 752.5px;
+    z-index: 3;
+}
