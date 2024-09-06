@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <img className="logo" src="src\assets\earnr_white@4x 1.png" alt="" />
-        <div className='launch-btn'>LAUNCH</div>
+        <button className='launch-btn'>LAUNCH</button>
     </div>
   )
 }

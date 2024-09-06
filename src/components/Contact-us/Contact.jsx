@@ -3,7 +3,9 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='contact-us'>Contact</div>
+    <div className='contact-us'>
+      <img className = "contact-us-image" src="src\assets\Contact Us.png" alt="" />
+    </div>
   )
 }
 
