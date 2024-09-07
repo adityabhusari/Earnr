@@ -1,9 +1,6 @@
-import RoadmapContainer from '../Rodmap-container/RoadmapContainer';
 import './Roadmap.css';
 
-function Roadmap() {
-    const boxes = [1, 2, 3];  // Create 3 boxes for the roadmap
-  
+function Roadmap() {  
     return (
       <div className="roadmap-container">
         <h1 className="roadmap-title">GAME PLAN</h1>
