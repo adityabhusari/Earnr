@@ -10,8 +10,17 @@ function HowItWorks() {
         </div>
         <div>
             <img className="base-image" src="src\assets\Group 2.png" alt="" />
-            <img className="mid-image" src="src\assets\Rectangle 6.png" alt="" />
-            <img className="up-image" src="src\assets\Rectangle 5.png" alt="" />
+            <div className='video-container'>
+              <div className='video-1'>
+                <img className="mid-image" src="src\assets\Rectangle 6.png" alt="" />
+                <img className="up-image" src="src\assets\Rectangle 5.png" alt="" />
+              </div>
+              <div className='video-2'>
+                <img className="mid-image-1" src="src\assets\Rectangle 6.png" alt="" />
+                <img className="up-image-1" src="src\assets\Rectangle 5.png" alt="" />
+              </div>
+            </div>
+            
         </div>
     </div>
   )
