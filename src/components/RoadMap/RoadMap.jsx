@@ -6,14 +6,18 @@ function Roadmap() {
   
     return (
       <div className="roadmap-container">
-        <h1 className="roadmap-title">ROADMAP</h1>
+        <h1 className="roadmap-title">GAME PLAN</h1>
   
         <div className="boxes-container">
-          {boxes.map((box, index) => (
-            <div key={index} className="roadmap-box">
-              {/* Box content goes here */}
-            </div>
-          ))}
+          <div className="roadmap-box">
+            <img src="src\assets\Group 25 (1).png" alt="" className='engagment-image'/>
+          </div>
+          <div  className="roadmap-box">
+            <img src="src\assets\Group 26.png" alt="" className='engagment-image'/>
+          </div>
+          <div className="roadmap-box">
+          <img src="src\assets\Group 27.png" alt="" className='engagment-image'/>
+          </div>
         </div>
   
         {/* Overlaying the strips */}

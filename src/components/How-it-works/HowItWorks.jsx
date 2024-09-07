@@ -12,18 +12,23 @@ function HowItWorks() {
             <img className="base-image" src="src\assets\Group 2.png" alt="" />
             <div className='video-container'>
               <div className='video-1'>
-                <img className="mid-image" src="src\assets\Rectangle 6.png" alt="" />
-                <img className="up-image" src="src\assets\Rectangle 5.png" alt="" />
+                <video className="video-element" controls>
+                  <source src="src\assets\earner creater.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <img src="src\assets\For Creators.png" alt="" className='creator-image'/>
               </div>
               <div className='video-2'>
-                <img className="mid-image-1" src="src\assets\Rectangle 6.png" alt="" />
-                <img className="up-image-1" src="src\assets\Rectangle 5.png" alt="" />
+                <video className="video-element" controls>
+                  <source src="src\assets\earnr hindi.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <img src="src\assets\For Supporters.png" alt="" className='supporter-image'/>
               </div>
             </div>
-            
         </div>
     </div>
   )
 }
 
-export default HowItWorks
+export default HowItWorks;

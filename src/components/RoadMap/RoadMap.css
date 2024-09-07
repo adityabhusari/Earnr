@@ -20,19 +20,40 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   gap: 80px;
   z-index: 1;  
   margin-bottom: 400px;
 }
 
 .roadmap-box {
-  width: 380px;
-  height: 550px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 1px solid white;
+  width: 70vw;
+  height: 100px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* border: 1px solid white; */
   border-radius: 10px;
   backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
 
 .strips-container {
   margin-top: 100px;
@@ -69,3 +90,4 @@
   width: 100%;
   transform: rotate(-5deg);
 }
+
